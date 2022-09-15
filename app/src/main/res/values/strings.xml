@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Setting strings   -->
+    <string name="app_name">Vag-Collar</string>
+    <string name="app_launcher_name">Vagrok Collar App</string>
+    <string name="app_version">App version: %s</string>
+    <string name="device_os">Device OS: %s</string>
+    <string name="version_placeholder">Version %s</string>
+
+    <!-- Activities Tile Strings   -->
+    <string name="title_activity_main2">Add New Collar Activity</string>
+    <string name="title_activity_login">Login Activity</string>
+
+    <!-- Buttons \ hints \ error messages   -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Invalid username</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_hint">Inset your phone number</string>
+    <string name="password_hint">Inset your password</string>
+    <string name="login_textBtn">Login</string>
+
+    <!--    -->
+    <string name="widget_config">Thank you for using Vag-Collar.\nFor more details and instructions please visit vagrok.com.</string>
+    <string name="cannot_share_empty_text">Cannot share empty text</string>
+    <string name="background_image">background Image</string>
+    <string name="welcome">"Welcome !"</string>
+
+
+    <!--    -->
+
+    <!-- Settings -->
+    <string name="display_success_message">Display save success messages</string>
+    <string name="links_and_emails_clickable">Make links and emails clickable</string>
+    <string name="place_cursor_end">Place cursor to the end of note</string>
+    <string name="monospaced_font">Use monospaced font</string>
+    <string name="show_keyboard">Show keyboard on startup</string>
+    <string name="show_word_count">Show word count</string>
+    <string name="show_character_count">Show character count</string>
+    <string name="alignment">Alignment</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="right">Right</string>
+    <string name="widget_note">Note used in widget</string>
+    <string name="show_note_picker">Show a note picker on startup</string>
+    <string name="autosave_notes">Autosave notes</string>
+    <string name="enable_line_wrap">Enable line wrap</string>
+    <string name="use_incognito_mode">Use Incognito mode of keyboards</string>
+    <string name="move_done_checklist_items">Move done checklist items to the bottom</string>
+    <string name="add_new_checklist_items_top">Add new checklist items at the top</string>
+    <!--  About us  -->
+    <string name="support">Support</string>
+    <string name="help_us">Help us</string>
+    <string name="social">Social</string>
+    <string name="other">Other</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="invite_friends">Invite friends</string>
+    <string name="share_text">Hey, come check out %1$s at %2$s</string>
+    <string name="invite_via">Invite via</string>
+    <string name="rate_us">Rate us</string>
+    <string name="rate">Rate</string>
+    <string name="donate">Donate</string>
+    <string name="donate_underlined"><u>Donate</u></string>
+    <string name="follow_us">Follow us</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="purchase">Purchase</string>
+    <string name="update_thank_you">Please update Simple Thank You to the latest version</string>
+    <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
+    <string name="before_rate_read_faq">Before you rate us, please check the app settings and read the Frequently Asked Questions first. If you have any problems, maybe the solution is there.</string>
+    <string name="make_sure_latest">Also make sure that you are using the latest app version.</string>
+    <string name="read_it">Read it</string>
+    <string name="read_faq">Read FAQ</string>
+    <string name="rate_us_prompt">Hello,\n\nit looks like you are using this app for quite a while already, and we really appreciate it.\n\nIf we can ask you a favor, please rate us on Google Play. That would really help us a lot.\n\nNo matter how you decide, you will not see this message again.\n\nThanks!</string>
+    <string name="rate_our_app">Rate our app please :)</string>
+    <string name="thank_you">Thank you</string>
+    <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
+    <string name="footer_details">Made with ❤ in Tunisia by Vagrok Team</string>
+    <string name="website">Visit our website</string>
+    <string name="an_error_occurred">An error occured</string>
+    <string name="skip">skip </string>
+    <string name="no_app_found">no application found</string>
+    <string name="version">V1.0</string>
+    <string name="title_activity_privacy">PrivacyActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="privacy_text"> Privacy policy
+
+General
+
+Vag-Collar is developed by the team of Vagrok , and we present to our client this solution from our heart hoping this app can be a good help for them.
+
+Privacy Policy ("Policy") describes how information obtained from users is collected, used and disclosed.
+
+By using Vag-Collar, you agree that your personal information will be handled as described in this Policy.
+
+The app has no internet access, so it is not sending anything outside the device whatsoever.
+
+Information being collected
+
+Vag-Collar does  collect user personal identifiable information so we can help the user with special offers and other type of services the user agreed apon.
+
+The `WRITE_EXTERNAL_STORAGE` permission is used on Android below 8 for accessing, editing or removing files containing notes created by users.
+
+Changes to the Policy
+
+If the Policy changes, the modification date below will be updated. The Policy may change from time to time, so please be sure to check back periodically.
+
+
+Contact
+
+If you have any questions about the Policy, please contact me via contact@vagrok.com</string>
+
+
+
+
+    <string-array name="animal_types_strings" translatable="true">
+ <!-- cows types -->
+        <item> "Aberdeen Angus"  </item>
+        <item>"Africander"  </item>
+        <item>"Aubrac"  </item>
+        <item>"Barzona" </item>
+        <item>"Bazadaise" </item>
+        <item>"Beef Shorthorn" </item>
+        <item> "Beefalo" </item>
+        <item>"Beefmaster" </item>
+        <item> "Belgian Blue" </item>
+        <item> "Belmont Red" </item>
+        <item> "Belted Galloway" </item>
+        <item> "Blonde d'Aquitaine" </item>
+        <item> "Bonsmara" </item>
+        <item> "Boran" </item>
+        <item>"Braford" </item>
+        <item>"Brahman" </item>
+        <item>"Brahmousin" </item>
+        <item> "Brangus" </item>
+        <item> "British White" </item>
+        <item>"Buelingo" </item>
+        <item> "Canchim" </item>
+        <item> "Caracu" </item>
+        <item> "Charolais" </item>
+        <item>"Chianina" </item>
+        <item> "Composite" </item>
+        <item> "Corriente" </item>
+        <item> "Devon" </item>
+        <item> "Dexter" </item>
+        <item> "Drakensberger" </item>
+        <item> "Droughtmaster" </item>
+        <item> "English Longhorn" </item>
+        <item> "Galloway" </item>
+        <item> "Gelbvieh" </item>
+        <item>"Gloucester" </item>
+        <item> "Hays Converter" </item>
+        <item>"Hereford" </item>
+        <item> "Highland" </item>
+        <item> "Hybridmaster" </item>
+        <item>"Limousin" </item>
+        <item>"Lincoln Red" </item>
+        <item> "Lowline" </item>
+        <item> "Luing" </item>
+        <item> "Maine-Anjou (Rouge des Prés)" </item>
+        <item> "Marchigiana" </item>
+        <item> "Miniature Hereford" </item>
+        <item> "Mirandesa" </item>
+        <item> "Mongolian" </item>
+        <item>"Murray Grey" </item>
+        <item>"Nelore" </item>
+        <item> "Nguni" </item>
+  </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
+
+
+

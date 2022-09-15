@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollFeed"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.NewCowActivity"
+    tools:showIn="@layout/activity_new_cow"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/background_logo"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/personalDetailsCard"
+        style="@style/centreLocatorCardDesign"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/white2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:divider="@drawable/centre_background"
+            android:dividerPadding="5dp"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus"
+                android:lines="1"
+                android:singleLine="true"
+                android:text="New animal"
+
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/yonder_blue"
+                android:textSize="24sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/reg_btn_style"
+                app:boxStrokeColor="@color/colorAccent">
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:autofillHints=""
+                    android:background="@android:color/transparent"
+                    android:hint="Animal name"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/md_blue_300_dark"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/reg_btn_style"
+                app:boxStrokeColor="@color/colorAccent">
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:autofillHints=""
+                    android:background="@android:color/transparent"
+                    android:hint="Animal number"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/md_blue_300_dark" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputMob"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/reg_btn_style"
+                app:boxStrokeColor="@color/colorAccent">
+
+                <EditText
+                    android:id="@+id/txtMob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:autofillHints=""
+                    android:background="@android:color/transparent"
+                    android:hint="Animal Age"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/md_blue_300_dark" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputReg"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/reg_btn_style"
+                app:boxStrokeColor="@color/colorAccent">
+
+                <AutoCompleteTextView
+                    android:id="@+id/txtReg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/lato_bold"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:hint="Animal race"
+                    android:inputType="none" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/male_anim"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/centre_button"
+
+        android:textColor="@color/white2"
+        style="?attr/materialButtonOutlinedStyle"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+    <Button
+        android:id="@+id/female_anim"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/centre_button"
+
+        android:textColor="@color/white2"
+        style="?attr/materialButtonOutlinedStyle"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+</LinearLayout>
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/centre_button"
+                android:text="Save settings"
+                android:textColor="@color/white2"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.core.widget.NestedScrollView>

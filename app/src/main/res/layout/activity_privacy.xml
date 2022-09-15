@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.PrivacyActivity"
+    android:background="@drawable/background_logo">
+
+    <LinearLayout
+        android:id="@+id/about_support_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:background="@drawable/section_holder_stroke"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/about_email_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_bottom_corners"
+            android:padding="@dimen/medium_margin"
+
+            >
+
+
+            <com.simplemobiletools.commons.views.MyTextView
+                android:id="@+id/text_id_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/normal_margin"
+                android:layout_marginEnd="@dimen/normal_margin"
+                android:gravity="center_vertical"
+                android:text="@string/privacy_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSizeNormal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

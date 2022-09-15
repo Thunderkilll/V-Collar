@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="checklist_image_size">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textSizeNormal">24dp</dimen>
+    <dimen name="scanner_frame">50dp</dimen>
+    <dimen name="newsMoreTextSize">16sp</dimen>
+    <dimen name="form_app_bar_height">250dp</dimen>
+</resources>
