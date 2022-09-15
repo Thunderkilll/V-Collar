@@ -16,7 +16,7 @@ import com.vagrok.vag_collar.databinding.ActivityMainBinding
 class NewCowActivity : AppCompatActivity() {
 
     private  lateinit var btnSave : Button
-
+//this is a test
     private lateinit var dropBox : AutoCompleteTextView
     private lateinit var binding: ActivityMainBinding
 
